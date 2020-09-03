@@ -10,6 +10,7 @@ Menu to track progress
 **Week 1-2**
 - C++ review and Game Design 
   - Progress [Progress](#Progress)
+  - C++/C#  [C++/C#](#CC)
   - Game Design and Development [Game Design & Development](#GD)
   - Project [Project](#Project)
 
@@ -33,13 +34,23 @@ Menu to track progress
   * Created Github repo
   * Downloaded Unity and finished starter tutorial
   * Refreshed on some basic c++ available to see on hopper/turing
+9/3/2020
+  * Learn difference between game development and game design
+  
+## CC
+
+The first thing I did was to make sure I remember how a basic C++ program works
+
+Then I moved on to learning the difference between C++ and C#
+
 
  
 ## GD
-
+* Game Design
+* Game Development
 
 ## Project
-
+* Basic video game
  
 
 
