@@ -36,6 +36,7 @@ Menu to track progress
   * Refreshed on some basic c++ available to see on hopper/turing
 9/3/2020
   * Learn difference between game development and game design
+  * Learned the basics of unity with objects, components, and rigid bodies
   
 ## CC
 
