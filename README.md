@@ -37,6 +37,9 @@ Menu to track progress
 9/3/2020
   * Learn difference between game development and game design
   * Learned the basics of unity with objects, components, and rigid bodies
+9/5/2020
+  * Basic Scripts
+  
   
 ## CC
 
