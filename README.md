@@ -15,7 +15,16 @@ Menu to track progress
   - Project [Project](#Project)
 
 **Week 3-9**
-
+- Create first game engine
+  - Learn what game engines are
+  - Best practices for a game engine 
+  - Create a basic game engine 
+  - Add more advanced features
+  - Create a game with the engine
+  
+  - Progress [Progress](#Progress2)
+  - Game engine [GameEngine](#GE)
+  - Project [Project](#Project2)
 
 **Week 10-15**
 
@@ -42,6 +51,9 @@ Menu to track progress
 9/6/2020
   * Game design process
   * Game development process
+9/7/2020
+  * Finished C# and C++ review 
+  * Finish first game
   
   
 ## CC
@@ -127,6 +139,15 @@ This includes patches and DLC
 * Basic video game
  
 
+
+
+## Progress2
+
+
+## GE
+
+
+## Project2
 
 
 ### Giovanni Moscato 2020
