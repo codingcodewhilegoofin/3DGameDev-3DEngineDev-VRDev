@@ -104,7 +104,11 @@ Different types of programming:
   - Music / User interface / Logic & Mechanics
   - Bugs , tools, and ports
 
-Post-Production: 
+Post-Production: When the game is done but continued maitenance is needed
+
+Sometimes a post-mortem will occur which is a little meeting to give feedback. 
+
+This includes patches and DLC
 
 
 
