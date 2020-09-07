@@ -48,13 +48,23 @@ Menu to track progress
 
 The first thing I did was to make sure I remember how a basic C++ program works
 
-Then I moved on to learning the difference between C++ and C#
+Then I moved on to learning the difference between C++ and C#:
+
+C is a new version of unix and the foundation for C++
+
+C++ is an extension of C and is object-oriented
+
+C# is also a high level language based on C and .NET. It executes on a VM giving it unique checking properties. Supposedly with better syntax. 
+
+A component-oriented language. C# complies into CLR and does not use pointers. C# also is almost never seen outside of windows. 
+
+[MyC#practice](http://tpcg.io/vxcCPrkg)
 
 
  
 ## GD
 #### Game Design
-* Game design is more of an art/creative process than game development. It's not exact but has an industry standard production pipeline if needed.
+* Game design is more of an art/creative process than game development. 
 
 Game designers will:
   - Develop the storyline, gameplay, rules, score systems
