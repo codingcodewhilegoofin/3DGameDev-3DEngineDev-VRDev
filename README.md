@@ -60,6 +60,8 @@ Menu to track progress
 
 The first thing I did was to make sure I remember how a basic C++ program works
 
+[MyC++Practice]( http://tpcg.io/vfEqvQTX )
+
 Then I moved on to learning the difference between C++ and C#:
 
 C is a new version of unix and the foundation for C++
