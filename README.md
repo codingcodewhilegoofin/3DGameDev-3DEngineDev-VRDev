@@ -142,8 +142,8 @@ This includes patches and DLC
 # GED
 
 To start understanding Game Engine design we have to consider a few basic principles that go into more depth
-  - 3D VS 2D
-  - Primitive shapes : Quadrilaterals, triangles, n-gons etc
+   3D VS 2D
+   Primitive shapes : Quadrilaterals, triangles, n-gons etc
   
 * 3D VS 2D
 2D games only require you to worry about a game window, sprites, and basic geometry. But this is more natural to create and slighlty easier. 
@@ -155,7 +155,7 @@ Game engines themselves are a collection or TOOLCHAIN needed to create a video b
 
 If this was a ball based game we would buy a bunch of balls and then thats it. 
 
-- Video Based games require all of the elements of video and photography to be able to be handled but also the dimensions related to game mechanics and design
+Video Based games require all of the elements of video and photography to be able to be handled but also the dimensions related to game mechanics and design
 
 There are many mediums and dimensions to different kinds of video games including 2.5D games. 
 
@@ -168,7 +168,10 @@ This actually reduces the ammount of time and memory required from computers to 
 
 Special algorithms make this render and fill method of triangles very optimized
 
-Once such method is RASTERIZATION decribled by the credible source of OpenGl as, " Rasterization is the process by which a primitive is converted to a two-dimensional image. Each point of this image contains such information as color and depth. Thus, rasterizing a primitive consists of two parts. The first is to determine which squares of an integer grid in window coordinates are occupied by the primitive. The second is assigning a color and a depth value to each such square. (OpenGL Specifications)" 
+Once such method is RASTERIZATION decribled by the credible source of OpenGl as,
+
+" Rasterization is the process by which a primitive is converted to a two-dimensional image. Each point of this image contains such information as color and depth. Thus, rasterizing a primitive consists of two parts. The first is to determine which squares of an integer grid in window coordinates are occupied by the primitive. The second is assigning a color and a depth value to each such square. (OpenGL Specifications)"
+
 [OpenGL](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage)
 
 # Project2
