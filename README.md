@@ -142,7 +142,9 @@ This includes patches and DLC
 # GED
 
 To start understanding Game Engine design we have to consider a few basic principles that go into more depth
+
    3D VS 2D
+   
    Primitive shapes : Quadrilaterals, triangles, n-gons etc
   
 * 3D VS 2D
