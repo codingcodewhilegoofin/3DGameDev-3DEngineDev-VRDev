@@ -176,7 +176,10 @@ Once such method is RASTERIZATION decribled by the credible source of OpenGl as,
 
 [OpenGL](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage)
 
+
+
 # Project2
 
+* This project 
 
 ### Giovanni Moscato 2020
