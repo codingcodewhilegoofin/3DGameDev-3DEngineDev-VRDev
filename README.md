@@ -189,9 +189,21 @@ Once such method is RASTERIZATION decribled by the credible source of OpenGl as,
 
 # Project2
 
-* This project 
+* This project is being developed in Visual Studio Community edition 
+
+This is a standard windows application found in basicGameEngine directory with NO PRECOMPILED HEADERS. ( Thank god they changed that  -_- )
+
+This engine uses a header file provided by 
+[OneLoneCoder](https://github.com/OneLoneCoder/videos/blob/master/olcConsoleGameEngine.h)
+
+
+
+
+
+
+
+
+
 
 ### Giovanni Moscato 2020
 
-
-### Giovanni Moscato 2020
