@@ -144,7 +144,12 @@ This includes patches and DLC
 # Progress2
 
 9/11/2020
-  * Basic game engine design 
+  * Basic game engine design
+9/12/2020
+  * Started 3D engine 
+9/13/2020
+  * Created Basic structures and consle dimensions
+  * Creating Projection Matrix
   
 
 
@@ -195,6 +200,26 @@ This is a standard windows application found in basicGameEngine directory with N
 
 This engine uses a header file provided by 
 [OneLoneCoder](https://github.com/OneLoneCoder/videos/blob/master/olcConsoleGameEngine.h)
+
+
+The first thing I did was define the screeen dimensions.
+
+From here we define 3 structures, 
+
+Coordinates, Triangles, and a vector of triangles ( mesh ) 
+
+Really all a mesh is , is a vector of triangles. 
+
+Then we define what a cube is based on our triangle theory. Basically we map each face of our cube to 3 x,y,z coordinates.
+These are all represented as floating point numbers organized into groups of 2 triangles with 6 verticies per face. 
+
+Now I tried to draw the triangle into a 2D space. In order to do this we must consider aspect ratio, triangles, 
+and field of view. 
+
+Summed up we need to follow this formula in order to properly translate 3D into 2D:
+Projection = [width/height((1/tan(theta/2)(x)) , (1/tan(theta/2))(y) , z((Zfar/Zfar-Znear)-((ZfarZnear)/Zfar-Znear))]
+
+This projection will be set against a matrix called : Projection Matrix. 
 
 
 
