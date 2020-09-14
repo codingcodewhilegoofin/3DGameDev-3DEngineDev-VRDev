@@ -1,0 +1,8 @@
+﻿  BasicGameEngine3D.cpp
+C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\BasicGameEngine3D.cpp(166,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\BasicGameEngine3D.cpp(166,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\BasicGameEngine3D.cpp(165,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\BasicGameEngine3D.cpp(165,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\BasicGameEngine3D.cpp(164,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\BasicGameEngine3D.cpp(164,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  BasicGameEngine3D.vcxproj -> C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\Debug\BasicGameEngine3D.exe
