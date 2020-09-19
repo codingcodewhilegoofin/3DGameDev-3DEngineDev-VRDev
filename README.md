@@ -135,7 +135,9 @@ This includes patches and DLC
 # Progress2
 
 9/11/2020
-  * Basic game engine design 
+  * Basic game engine design
+0/19/2020
+  * Continuation of game engine design 
   
 
 
