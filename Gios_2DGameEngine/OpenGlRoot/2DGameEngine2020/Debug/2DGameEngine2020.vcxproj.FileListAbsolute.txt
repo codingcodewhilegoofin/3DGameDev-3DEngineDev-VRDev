@@ -1,0 +1,2 @@
+C:\Users\Yupim\OneDrive\Documents\unitystuff\CSCI497GE-VR\Gios_2DGameEngine\OpenGlRoot\2DGameEngine2020\Debug\2DGameEngine2020.exe
+C:\Users\Yupim\OneDrive\Documents\unitystuff\CSCI497GE-VR\Gios_2DGameEngine\OpenGlRoot\2DGameEngine2020\Debug\2DGameEngine2020.pdb
