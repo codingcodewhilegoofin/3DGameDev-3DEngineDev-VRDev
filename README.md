@@ -27,7 +27,15 @@ Menu to track progress
   - Project [Project](#Project2)
 
 **Week 10-15**
+- 1: Learn how VR games work
+- 2: Create a small VR scence even if I can't explore it 
+- 3: Get google cardboard to work
+- 4: Finish 2D enginge if possible
+- 5: Render a picture with custom 2D engine 
 
+
+  - Progress [Progress](#Progress3)
+  - VrGame [Vrgame](#Vrgame)
 
 **Paper**
 
@@ -141,6 +149,7 @@ This includes patches and DLC
 * Basic video game
  
 
+
 # Progress2
 
 9/11/2020
@@ -150,7 +159,18 @@ This includes patches and DLC
 9/13/2020
   * Created Basic structures and consle dimensions
   * Creating Projection Matrix
-  
+9/19/2020
+  * Finding the normal of our triangles
+  * Continued learning
+9/26/2020
+  * Learned about .obj files, perspective, and rendering 
+10/10/2020
+  * Began 2D engine
+10/16/2020
+  * Further 2D development
+10/23/2020
+  * Further 2D development
+
 
 
 # GED
@@ -221,7 +241,105 @@ Projection = [width/height((1/tan(theta/2)(x)) , (1/tan(theta/2))(y) , z((Zfar/Z
 
 This projection will be set against a matrix called : Projection Matrix. 
 
+The next part of the game engine design phase is calculation the "normals" of our triangles. This involves calculus and uses the CROSS PRODUCT formula: The Cross Product a × b of two vectors is another vector that is at right angles to both
 
+Here we can calculate the normal for each of our x, y, z axies. 
+
+Nx = Ay x Bz - AzBy
+Ny = Az x Bx - AxBz
+Nz = Ax x By - AyBx
+
+It is critical to realize that our triangles have been calculated in a clockwise manner. The normal vector will change direction based on this rotation of points. 
+
+![ImageofNormalDirecton](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Cross_product_vector.svg/220px-Cross_product_vector.svg.png)
+
+From here we calculate our normals for each line and then need to normalize the vector :
+To normalize a vector, therefore, is to take a vector of any length and, keeping it pointing in the same direction, change its length to 1, turning it into what is called a unit vector. 
+
+We have now created basic culling based on the fact that when our normal vector is n < 0 we can see it.
+
+Unfortunantley this means that our field of view of this cube is still off. To fix this we need to make sure that the face is only visible at an angle of 90 degrees using everyones favorite calc 3 equation
+
+The dot product:
+
+D = Ax . Bx + Ay . By + Az . Bz
+
+We can create a camera which is originally poistioned at point ( 0 ,0 ,0 ) as a basis and from there project a line within 90 degrees of the FOV. 
+
+This allows us to only calculate the normals that are only within that FOV at the time 
+
+n > 0 will show an inverse culling render because we are showing all normals OUTSIDE our FOV. 
+
+Once we fill in these triangles to get a sense of depth VS the wireframe, we run into ANOTHER problem
+
+To interpret depth properly in 2D space you need shading , which means lighting. 
+
+To do this we add false illumination via light direction vectors.
+
+From here on the 3D aspect of drawing shapes becomes very complicated and would take years and years to do. Luckily these advancements in technology have already occured and we can simply pull in 3D models through obj files as long as they consist of triangles.
+
+From here I made the decision that trying to create my own 3D game engine by myself, and then try to make a game from it would take more time than I had available. So, I began simplifying to a 2D engine. 
+
+# ProjectPart2
+
+To begin designing my 2D game engine I thought the best place to start would be to set up a grid and pixel class. However, I quicly realized that there is no good way to do this in the terminal since it is character based and could actually be blocked by my OS. Most OS will block you from directly altering the pixels of your monitor. So, I decided to get this engine going anywhere soon I would have to use OpenGL. OpenGL will not only handle that issue for me, but is also cross-platform friendly. Specifically the GLFW library.
+
+
+
+
+# Progress3
+
+10/30/2020
+  * Tried to get a VR game on my phone through GoogleCardboard
+11/6/2020
+  * Got a wroking VR game on my phone and did additional research
+11/13/2020
+  * Learned about VR, AR , XR and dream XR. Looked at HTC vive doc 
+11/19/2020
+  * Continued to work on the sci-fi meme horror game 
+  
+# Vrgame
+
+In order to create a VR game I have to understand what it means to create a VR game. I also thought it would be a good idea to know what VR means in a development definition as well. 
+
+Basically there is a term Unity uses called XR which is just a term refering to different kinds of applications. 
+So VR will simulate a completley different environment, MR will combine a fake environment with the real world, and AR wil add layers over the real world. 
+
+XR is a TECH STACK similar to a FULL STACK when considering web development. Google cardboard used unity's XR SDK in order to create their own plug in. 
+
+I do not have a VR headset and was not able to get into the lab this semseter, however I plan to utilize my phone as a VR device. I believe that the only open source VR for andriod phones is google's cardboard SDK so I plan to use that. 
+
+The first step amoung others from google's cardboard DOC is to set up the development environment. 
+
+However I thought it would be helpful to first research how VR games are usually made and what makes them a reality per say. 
+
+VR development requires developers to be constantly thingking about spatial conerns. In order to create a VR game I will need to first understand how x, y ,z coordinates in a 3D game work. Luckily I have already done this with " pink balls ". Then I have to be able to import 3D assets to the game through some kind of software such as blender or make my own. Finally it will require using C# ( which I now have experience in ) .
+
+To get into the nitty gritty of Google Cardboard I started with their Unity quickstart guide.
+
+## Setup dev environment PROBLEM:
+In the google doc there is a line that states Scan the QR code of a Cardboard viewer to save its parameters. 
+This is an issue since I also do not have an actual google cardboard viewer. Also upon downloading the APK package to my device it will crash immedietly upon opening it. 
+
+## Setup solution:
+In order to fix this problem I followed the google cardboard DOC very closely for their template game. I then had to configure my build settings to match my phone's andriod version which was Pie. The apk was able to download onto my phone and now works with full funcitonality. 
+
+After this detour I added prefabs, particle affects, models, lighting, and music to my scene. 
+
+## More advanced XR / VR 
+From here on I wanted to set up a few custom scripts and prefabs/models to use in my game. Then fully understand how the VR world works and finish a simple horror game. I also wanted to incorporate things I like , such as some memes. 
+
+To have a deeper understanding of XR/VR I had to understand the meaning of 3DOF and 6DOF. For this project I will only need to worry about 3DOF since I have created a mobile VR game which uses my phones gyroscope.
+
+#3DOF mean three degrees of freedom 
+This means that the VR app is tracking my phones gyroscope position. There can however be ways to turn a mobile VR app into a complex 6DOF app such as implementing an algorithms similar to google maps GPS location tracking system. This will probably be also out of scope for this assignment. 
+
+I wanted to be able to develop a VR app that was able to be used in browser via the gyroscope as well as via the app store. 
+
+So, I started looking into webglVR type solutions such as WebXR Device API. 
+
+This site is really cool and exactly what I was looking for 
+[WebVR](https://immersiveweb.dev/)
 
 
 
