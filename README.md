@@ -338,8 +338,13 @@ I wanted to be able to develop a VR app that was able to be used in browser via 
 
 So, I started looking into webglVR type solutions such as WebXR Device API. 
 
+
 This site is really cool and exactly what I was looking for 
 [WebVR](https://immersiveweb.dev/)
+
+After extensive research I have learned that although WebXR is amazing , it is still in early development and they are actually waiting for HTML technology to catch up. A new version of HMTL is in the works and will support cross browser VR. 
+
+
 
 
 
