@@ -46,6 +46,12 @@ Menu to track progress
  
 ***********************************************************************************************************************************************
  
+## Challenges/fixes
+- Game only has one level
+- Game manager script needs updating
+- Overall need polish 
+ 
+ 
 ## Progress
 
 9/2/2020
@@ -151,7 +157,11 @@ This includes patches and DLC
 * Basic video game
  
 
-
+## Challenges/fixes
+- Need to further explore the GFLW library 
+- Finish graphics portion of the engine 
+- Fix issue with root folder 
+ 
 
 # Progress2
 
@@ -296,6 +306,13 @@ To begin designing my 2D game engine I thought the best place to start would be 
 
 
 # Progress3
+
+
+## Challenges/fixes
+- Errors in audio script
+- Errors with touch function script
+- Overall level need re-designing 
+ 
 
 10/30/2020
   * Tried to get a VR game on my phone through GoogleCardboard
