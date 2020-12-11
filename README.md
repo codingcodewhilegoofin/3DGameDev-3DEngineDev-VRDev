@@ -36,6 +36,7 @@ Menu to track progress
 
   - Progress [Progress](#Progress3)
   - VrGame [Vrgame](#Vrgame)
+  - Summary[Summaryandnotes](#Summaryandnotes)
 
 **Paper**
 
@@ -145,9 +146,11 @@ This includes patches and DLC
 
 
 
+
 ## Project
 * Basic video game
  
+
 
 
 # Progress2
@@ -170,6 +173,7 @@ This includes patches and DLC
   * Further 2D development
 10/23/2020
   * Further 2D development
+
 
 
 
@@ -209,6 +213,7 @@ Once such method is RASTERIZATION decribled by the credible source of OpenGl as,
 " Rasterization is the process by which a primitive is converted to a two-dimensional image. Each point of this image contains such information as color and depth. Thus, rasterizing a primitive consists of two parts. The first is to determine which squares of an integer grid in window coordinates are occupied by the primitive. The second is assigning a color and a depth value to each such square. (OpenGL Specifications)"
 
 [OpenGL](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage)
+
 
 
 
@@ -280,6 +285,9 @@ From here on the 3D aspect of drawing shapes becomes very complicated and would 
 
 From here I made the decision that trying to create my own 3D game engine by myself, and then try to make a game from it would take more time than I had available. So, I began simplifying to a 2D engine. 
 
+
+
+
 # ProjectPart2
 
 To begin designing my 2D game engine I thought the best place to start would be to set up a grid and pixel class. However, I quicly realized that there is no good way to do this in the terminal since it is character based and could actually be blocked by my OS. Most OS will block you from directly altering the pixels of your monitor. So, I decided to get this engine going anywhere soon I would have to use OpenGL. OpenGL will not only handle that issue for me, but is also cross-platform friendly. Specifically the GLFW library.
@@ -297,6 +305,11 @@ To begin designing my 2D game engine I thought the best place to start would be 
   * Learned about VR, AR , XR and dream XR. Looked at HTC vive doc 
 11/19/2020
   * Continued to work on the sci-fi meme horror game 
+12/11/2020
+  * Final updates to APK, was not able to get certian scripts working but added some new stuff
+  * Final edits to readme
+  * Final thoughts on course 
+  * Review notes with teacher! 
   
 # Vrgame
 
@@ -343,6 +356,50 @@ This site is really cool and exactly what I was looking for
 [WebVR](https://immersiveweb.dev/)
 
 After extensive research I have learned that although WebXR is amazing , it is still in early development and they are actually waiting for HTML technology to catch up. A new version of HMTL is in the works and will support cross browser VR. 
+
+
+
+
+
+
+# Summaryandnotes 
+Final thoughts: Overall, this independant study has let me grow my knowledge of the game industry vastly. I was able to learn and experience multiple areas of game development as well as the business processes. Not only did I learn how games actual work code and art wise, but I also learned a a thing or two about the publishing aspect of video games. My experience also crossed multiple platforms from PC, web, and mobile development. During my first half of the semester I really honed in on what actual makes a game good, and how they are built to a technical level. Not only did Unity empower me to write and learn C# , but also give me hand on experience in package/file managment. Understanding how basic 3D games are built is extremely difficult and takes time. It also took a tremendous ammount of time and research to even start understanding how to build a game engine. The game enginge required just as much knowledge and know how as actually building a good game which I found interesting. For the second half of the class I was able to experience createing and testing a VR game on my phone through GoogleCardboard. I did learn quite a bit about how VR games must consider degree's of freedom, complex scripts, new players interactions, latency, hardare, configuration , and a multitude of other aspects. VR video games are definetley complex and require lots of time and know how to complete. I could barley manage to configure, edit , and run my own APK file on my phone.
+        More than anything this expereince has taught me not to give up. Each section of the game industry that I learned about brought new and interesting challenges to the table. I found that the funnest and easiest aspect of game development turned out to be creating the game mechanics and art. The hardest aspect of each area I had explored was definetley configuration. I'm sure on a real game dev team there is probably a lead who handles configuration and runtime errors. Again and again I wasted the most time on degbugging or trying to even get my applicaton configured. If I were to persure this industry further I would start a 2D or 3D game from scratch to limit the possibilites of major headaches. I believe that it would also be more effective to join an open source game dev community to learn the ropes versus trying to learn everything on your own. 
+     
+    I understand now why it takes whole teams and major companies to even create one good game. The ammount of time taken to market, code, create, explore, animate, light, debug, configure , and publish a game would take numerous years. The more complex the game is would also drasticly increase this ammount of time.
+    
+# If I could redo this course what would I have done differently?
+If I had the chance or time to go back and redo this course I would have honeslty kept it to either 3D, 3D game engines, or VRgames. Trying to do all 3 resulted in 2 unfinished projects that need more time spent on them. I did however learn a LOT about each of these and it gave me a wide perspective on video games and video game technology.
+
+## Good things:
+- I learned a ton about game design, development, engines, XR , and much more
+- I was able to complete a unique 3D video game and publish it on my own to a website
+- The video game followed the actual definition of a game, and not just an art project 
+- I was able to start a 3D game engine and learn about GFLW open source graphics API
+- I learned about custom C++ linking 
+- I learned about the complex mathematics behind game engines as well as the game engine stack 
+- I learned about XR applications, and sucessfully configured my own googlecardboard APK currently able to run on my phone 
+- I learned 1 new programming language and reviewed C++
+- I have a better picture of the game design process flow and business model 
+- I learned about configuration and package managment
+- I gained further Github and Unity knowledge 
+- I learned about advanced github source managment and local file managment 
+- I can now continue or start new projects with future teamates
+- Learning more about these topics is now easier 
+- I wrote a few scripts and furthered my knowledge of class structure and object reference
+- I learned about cross-platform conversions and media 
+- I gained experience in researching, and implementing new computer science concepts 
+
+## Bad things:
+- I did not spend enough time in any catagory
+- 2 unfinished projects
+- The 3D project could have used multiple levels 
+- Not enough time to polish 3D project
+- Only experince in 1 game engine and language 
+- Not enough scripting experience 
+
+## What now ? 
+Now that the course is over , I plan to update this github repository in the future to let other NIU students know about my continuing experience in game design/dev. I think that if someone where to take this course and needed a plan to go off of that this one would be great to copy and make better ! I plan to start by condensing what I've learned into contiuing and or starting a new 3D/2D game in Unity for more practice. Otherwise I will try to find an open source project related to this to work on. This process will involve planing, gathering , and developing a fully fleged 5 level game that I can hopefully publish. 
 
 
 
