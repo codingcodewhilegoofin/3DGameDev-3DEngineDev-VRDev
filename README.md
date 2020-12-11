@@ -372,7 +372,7 @@ Final thoughts: Overall, this independant study has let me grow my knowledge of 
 # If I could redo this course what would I have done differently?
 If I had the chance or time to go back and redo this course I would have honeslty kept it to either 3D, 3D game engines, or VRgames. Trying to do all 3 resulted in 2 unfinished projects that need more time spent on them. I did however learn a LOT about each of these and it gave me a wide perspective on video games and video game technology.
 
-## Good things:
+## What went well
 - I learned a ton about game design, development, engines, XR , and much more
 - I was able to complete a unique 3D video game and publish it on my own to a website
 - The video game followed the actual definition of a game, and not just an art project 
@@ -392,7 +392,7 @@ If I had the chance or time to go back and redo this course I would have honeslt
 - I gained experience in researching, and implementing new computer science concepts 
 - Learned more about markdown 
 
-## Bad things:
+## Challenges/issues
 - I did not spend enough time in any catagory
 - 2 unfinished projects
 - The 3D project could have used multiple levels 
