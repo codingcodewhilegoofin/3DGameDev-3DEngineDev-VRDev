@@ -1,0 +1,2 @@
+C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\Debug\BasicGameEngine3D.exe
+C:\Users\Yupim\Documents\unitystuff\CSCI497GE-VR\basicGameEnginge\BasicGameEngine3D\Debug\BasicGameEngine3D.pdb
