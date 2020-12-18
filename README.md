@@ -15,6 +15,7 @@ Menu to track progress
   - Project [Project](#Project)
 
 **Week 3-9**
+
 - Create first game engine
   - Learn what game engines are
   - Best practices for a game engine 
@@ -25,6 +26,7 @@ Menu to track progress
   - Progress [Progress](#Progress2)
   - Game engine [GameEngine](#GE)
   - Project [Project](#Project2)
+
 
 **Week 10-15**
 - 1: Learn how VR games work
@@ -66,16 +68,20 @@ Menu to track progress
 9/6/2020
   * Game design process
   * Game development process
+
 9/7/2020
   * Finished C# and C++ review 
   * Finish first game
+
   
   
 ## CC
 
 The first thing I did was to make sure I remember how a basic C++ program works
 
+
 [MyC++Practice]( http://tpcg.io/vfEqvQTX )
+
 
 Then I moved on to learning the difference between C++ and C#:
 
@@ -312,6 +318,7 @@ To begin designing my 2D game engine I thought the best place to start would be 
 - Errors in audio script
 - Errors with touch function script
 - Overall level need re-designing 
+
  
 
 10/30/2020
@@ -428,6 +435,58 @@ If I had the chance or time to go back and redo this course I would have honeslt
 
 
 
+
+# Progress2
+
+9/11/2020
+  * Basic game engine design
+0/19/2020
+  * Continuation of game engine design 
+  
+
+
+# GED
+
+To start understanding Game Engine design we have to consider a few basic principles that go into more depth
+
+   3D VS 2D
+   
+   Primitive shapes : Quadrilaterals, triangles, n-gons etc
+  
+* 3D VS 2D
+2D games only require you to worry about a game window, sprites, and basic geometry. But this is more natural to create and slighlty easier. 
+3D games came from the abstraction that in order to respresent a three dimensional game on a 2D screen that you need a conversion process. 
+
+The conversion process is handled by a graphics engine built into a game engine!
+
+Game engines themselves are a collection or TOOLCHAIN needed to create a video based game. 
+
+If this was a ball based game we would buy a bunch of balls and then thats it. 
+
+Video Based games require all of the elements of video and photography to be able to be handled but also the dimensions related to game mechanics and design
+
+There are many mediums and dimensions to different kinds of video games including 2.5D games. 
+
+* Primitive shapes 
+One of the processes of converting 3D geometry into a 2D space involves the triangle ! 
+
+Many 3D shapes can be represented by decomposing that object into billions of triangles. Also ANY 2D shape could theoretically be represented by a triangle except a line which is ofc 1 dimensional only defined by its length. 
+
+This actually reduces the ammount of time and memory required from computers to render and image to the screen. 
+
+Special algorithms make this render and fill method of triangles very optimized
+
+Once such method is RASTERIZATION decribled by the credible source of OpenGl as,
+
+" Rasterization is the process by which a primitive is converted to a two-dimensional image. Each point of this image contains such information as color and depth. Thus, rasterizing a primitive consists of two parts. The first is to determine which squares of an integer grid in window coordinates are occupied by the primitive. The second is assigning a color and a depth value to each such square. (OpenGL Specifications)"
+
+[OpenGL](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage)
+
+
+
+# Project2
+
+* This project 
 
 ### Giovanni Moscato 2020
 
