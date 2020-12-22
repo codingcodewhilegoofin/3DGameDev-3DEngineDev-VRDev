@@ -1,4 +1,6 @@
+# What is this repo?
 
+Hello! I spent some time learning about game dev, how game engines are built, and VR dev. My accumulative reserch and code is all here and documented bellow. I also managed to create a small game! 
 
 ***********************************************************************************************************************************************
 
