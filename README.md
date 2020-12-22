@@ -1,5 +1,4 @@
-# CSCI497GE-VR
-Game Engine and VR development independent study for CSCI 497 at NIU
+
 
 ***********************************************************************************************************************************************
 
@@ -383,19 +382,6 @@ After extensive research I have learned that although WebXR is amazing , it is s
 
 
 
-
-
-
-# Summaryandnotes 
-Final thoughts: Overall, this independant study has let me grow my knowledge of the game industry vastly. I was able to learn and experience multiple areas of game development as well as the business processes. Not only did I learn how games actual work code and art wise, but I also learned a a thing or two about the publishing aspect of video games. My experience also crossed multiple platforms from PC, web, and mobile development. During my first half of the semester I really honed in on what actual makes a game good, and how they are built to a technical level. Not only did Unity empower me to write and learn C# , but also give me hand on experience in package/file managment. Understanding how basic 3D games are built is extremely difficult and takes time. It also took a tremendous ammount of time and research to even start understanding how to build a game engine. The game enginge required just as much knowledge and know how as actually building a good game which I found interesting. For the second half of the class I was able to experience createing and testing a VR game on my phone through GoogleCardboard. I did learn quite a bit about how VR games must consider degree's of freedom, complex scripts, new players interactions, latency, hardare, configuration , and a multitude of other aspects. VR video games are definetley complex and require lots of time and know how to complete. I could barley manage to configure, edit , and run my own APK file on my phone.
-       
-  More than anything this expereince has taught me not to give up. Each section of the game industry that I learned about brought new and interesting challenges to the table. I found that the funnest and easiest aspect of game development turned out to be creating the game mechanics and art. The hardest aspect of each area I had explored was definetley configuration. I'm sure on a real game dev team there is probably a lead who handles configuration and runtime errors. Again and again I wasted the most time on degbugging or trying to even get my applicaton configured. If I were to persure this industry further I would start a 2D or 3D game from scratch to limit the possibilites of major headaches. I believe that it would also be more effective to join an open source game dev community to learn the ropes versus trying to learn everything on your own. 
-     
-  I understand now why it takes whole teams and major companies to even create one good game. The ammount of time taken to market, code, create, explore, animate, light, debug, configure , and publish a game would take numerous years. The more complex the game is would also drasticly increase this ammount of time.
-    
-# If I could redo this course what would I have done differently?
-If I had the chance or time to go back and redo this course I would have honeslty kept it to either 3D, 3D game engines, or VRgames. Trying to do all 3 resulted in 2 unfinished projects that need more time spent on them. I did however learn a LOT about each of these and it gave me a wide perspective on video games and video game technology.
-
 ## What went well
 - I learned a ton about game design, development, engines, XR , and much more
 - I was able to complete a unique 3D video game and publish it on my own to a website
@@ -423,10 +409,6 @@ If I had the chance or time to go back and redo this course I would have honeslt
 - Not enough time to polish 3D project
 - Only experince in 1 game engine and language 
 - Not enough scripting experience 
-
-## What now ? 
-    Now that the course is over , I plan to update this github repository in the future to let other NIU students know about my continuing experience in game design/dev. I think that if someone where to take this course and needed a plan to go off of that this one would be great to copy and make better ! I plan to start by condensing what I've learned into contiuing and or starting a new 3D/2D game in Unity for more practice. Otherwise I will try to find an open source project related to this to work on. This process will involve planing, gathering , and developing a fully fleged 5 level game that I can hopefully publish. 
-
 
 
 
